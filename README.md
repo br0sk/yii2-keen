@@ -7,8 +7,8 @@ This is an extension for Yii2 that makes it easy to use http://keen.io/.
 
 You can configure it in your application configuration like so:
 
-	'keenio' => [
-		'class' => 'br0sk\keenio\KeenIo',
+	'keen' => [
+		'class' => 'br0sk\keen\KeenIo',
 		'projectId' => 'yourprojectid',
 		'readKey' 	=> 'yourreadkey',
 		'writeKey'	=> 'yourwritekey'
@@ -21,7 +21,7 @@ Adding it to your `components` array.
 Pushing an event is as easy as:
 
 	$event = ['purchase' => ['item' => 'Golden Elephant']];
-	$keenReturn = Yii::$app->keenio->addEvent('purchases', $event);
+	$keenReturn = Yii::$app->keen->addEvent('purchases', $event);
     
 You can now use all the calls in the [Keen PHP SDK](https://github.com/keenlabs/KeenClient-PHP) this extension builds on 
 
