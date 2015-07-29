@@ -1,5 +1,5 @@
 <?php
-namespace br0sk\keenio;
+namespace br0sk\keen;
 
 use yii\base\Component;
 use KeenIO\Client\KeenIOClient;
