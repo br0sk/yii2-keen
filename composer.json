@@ -1,19 +1,19 @@
 {
-	"name": "br0sk/yii2-keen",
-	"description": "The keen.io API for Yii2",
-	"keywords": ["yii2", "statistics", "keen.io"],
-	"homepage": "http://br0sk.blogspot.com",
-	"type": "project",
-	"license": "BSD-3-Clause",
-	"support": {
-		"issues": "https://github.com/br0sk/yii2-keen/issues",
-		"source": "https://github.com/br0sk/yii2-keen"
-	},
-	"require": {
-		"php": ">=5.4.0",
-		"keen-io/keen-io":"~2.5"
-	},
-	"autoload": {
-		"psr-4": {"br0sk\\keen\\": ""}
-	}
+    "name": "br0sk/yii2-keen",
+    "description": "The keen.io API for Yii2",
+    "keywords": ["yii2", "statistics", "keen.io"],
+    "homepage": "http://br0sk.blogspot.com",
+    "type": "project",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/br0sk/yii2-keen/issues",
+        "source": "https://github.com/br0sk/yii2-keen"
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "keen-io/keen-io":"~2.5"
+    },
+    "autoload": {
+        "psr-4": {"br0sk\\keen\\": ""}
+    }
 }
