@@ -110,12 +110,6 @@ class KeenIo extends Component
      */ 
     public function __call($method, $params)
     {
-        //Override the normal Yii functionality checking the Keen SDK for a matching method
-        if (method_exists($this->_keenio, $method)) {
-            return call_user_func_array(array($this->_keenio, $method), $params);
-        }
-        
-        //Use standard Yii functionality, checking behaviours
-        return parent::__call($method, $params);
+        return call_user_func_array(array($this->_keenio, $method), $params);
     }
 }
